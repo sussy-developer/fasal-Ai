@@ -1,16 +1,63 @@
-# demo
+# 🌾 Smart Farming Advisor App
+AI-powered mobile application designed to help farmers make smarter decisions about **crops, soil, fertilizers, diseases, weather**, and marketplace connectivity — all in one platform.
 
-A new Flutter project.
+# UI screenshots:
+![opening](fasal-Ai/opening.png)
+![log_in](fasal-Ai/log_in.png)
+![location selection](fasal-Ai/location_entering.png)
+![Home dash](landing.png)
 
-## Getting Started
+## 📂 Project Structure:
 
-This project is a starting point for a Flutter application.
+/lib
+/screens
+/widgets
+/models
+/assets
+/screenshots
+/icons
+#technologies : 
 
-A few resources to get you started if this is your first Flutter project:
+| Component | Technology Used |
+|----------|-----------------|
+| Frontend App | Flutter (Dart) |
+| Backend | Node.js / Express |
+| Database | MongoDB |
+| AI Models | CNN / Transfer Learning / RBM |
+| APIs | OpenWeather, OSM Geo API |
+| Authentication | Firebase/Auth |
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## ✅ Features
+
+### 🔍 1. Soil & Crop Advisory
+- Upload soil photo
+- CNN / Transfer Learning model analyzes:
+  ✅ Moisture  
+  ✅ Color  
+  ✅ Texture  
+- Suggests best crop for that soil
+
+### 🧪 2. Fertilizer Recommendation
+- Farmer answers simple questions:
+  ✅ Previously grown crops  
+  ✅ Fertilizers used  
+  ✅ Current soil condition  
+- AI model + RBM suggests best fertilizer
+
+
+### 🌱 3. Disease Detection
+- Upload leaf / plant photo
+- Trained using PlantVillage & Kaggle datasets
+- Detects disease + gives treatment suggestions
+
+
+### 🌦 4. Realtime Weather Forecast
+- Live weather using **OpenWeather API**
+- Hourly & weekly forecast
+
+- ### 🛒 5. Farmer Community & Marketplace
+- Finds nearby marketplaces using **Open Street Map**
+- Community chat & AI-powered support
+- Language support for native languages
+

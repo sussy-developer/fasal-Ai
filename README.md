@@ -2,9 +2,9 @@
 AI-powered mobile application designed to help farmers make smarter decisions about **crops, soil, fertilizers, diseases, weather**, and marketplace connectivity — all in one platform.
 
 # UI screenshots:
-![opening](fasal-Ai/opening.png)
-![log_in](fasal-Ai/log_in.png)
-![location selection](fasal-Ai/location_entering.png)
+![opening](opening.png)
+![log_in](log_in.png)
+![location selection](location_entering.png)
 ![Home dash](landing.png)
 
 ## 📂 Project Structure:
